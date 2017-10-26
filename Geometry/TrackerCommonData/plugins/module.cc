@@ -1,5 +1,6 @@
 //<<<<<< INCLUDES                                                       >>>>>>
 
+#include "Geometry/TrackerCommonData/plugins/DDTelescopePlanesAlgo.h"
 #include "Geometry/TrackerCommonData/plugins/DDPixBarLayerAlgo.h"
 #include "Geometry/TrackerCommonData/plugins/DDPixFwdBlades.h"
 #include "Geometry/TrackerCommonData/plugins/DDTECAxialCableAlgo.h"
@@ -31,6 +32,7 @@
 #include "Geometry/TrackerCommonData/plugins/DDCutTubsFromPoints.h"
 #include "DetectorDescription/Core/interface/DDAlgorithmFactory.h"
 
+DEFINE_EDM_PLUGIN (DDAlgorithmFactory, DDTelescopePlanesAlgo, "track:DDTelescopePlanesAlgo");
 DEFINE_EDM_PLUGIN (DDAlgorithmFactory, DDPixBarLayerAlgo,   "track:DDPixBarLayerAlgo");
 DEFINE_EDM_PLUGIN (DDAlgorithmFactory, DDPixFwdBlades,      "track:DDPixFwdBlades");
 DEFINE_EDM_PLUGIN (DDAlgorithmFactory, DDTECAxialCableAlgo, "track:DDTECAxialCableAlgo");
