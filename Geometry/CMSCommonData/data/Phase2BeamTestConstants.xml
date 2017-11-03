@@ -11,7 +11,7 @@
 <Constant name="DUTTransX" value="0.0*mm"/>         <!-- Total DUT Holder translation along X axis -->
 <Constant name="DUTTransY" value="0.0*mm"/>         <!-- Total DUT Holder translation along Y axis -->
 <Constant name="DUTTransZ" value="0.0*mm"/>         <!-- Total DUT Holder translation along Z axis -->
-<Constant name="DUTTiltAngle" value="10.0*deg"/>    <!-- Angle around X, counted from (XY) plane. -->
+<Constant name="DUTTiltAngle" value="15.0*deg"/>    <!-- Angle around X, counted from (XY) plane. -->
                                                     <!-- Angle is in [0 20] deg. -->
                                                     <!-- No negative value!! If angle >= 0, please use DUTTiltPlus in telescope.xml, if angle < 0 please use DUTTiltMinus in telescope.xml -->
 
